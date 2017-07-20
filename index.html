@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube New</title>
+	<link href = 'main.css' rel = 'stylesheet' type = 'text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+<body>
+
+	<!-- fixed navigation bar -->
+	<nav>
+		<div class="header-el left-nav">
+			<i class = "fa fa-bars" aria-hidden="true"></i>
+			<img src="img/youtube.png">
+		</div>
+
+		<div class="header-el center-nav">
+			<input type="text" name="search" placeholder="Search">
+			<button type = "button">
+				<i id = "search-icon" class = "fa fa-search" aria-hidden="true"></i>
+			</button>
+		</div>
+
+		<div class="header-el right-nav">
+			<i class="fa fa-upload" aria-hidden="true"></i>
+			<i class="fa fa-bell-o" aria-hidden="true"></i>
+			<img id="guest-icon" src="img/guest_user.png">
+		</div>
+	</nav>
+
+ 	<div id='page-content'>
+		<section>
+			<!-- first child -->
+			<div id='video-box'>
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/XhQspFIVz3M" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<!-- second child -->
+			<div id="title-box">
+				<div id="title-div">
+					<h1>Mix With The Masters: 3 Lessons I Learned While There - TheRecordingRevolution.com</h1> 
+					<div id="title-middle">
+						<img src="img/rec-rev-icon.jpg" alt="recording revolution icon">
+						<div id="channel-sub">
+							<h6>recordingrovolution</h6>
+							<div id="subscribe">
+							 	<div id="red-sub">
+							 		<i class="fa fa-youtube-play" aria-hidden="true"></i> 
+							 		<div id="sub-text"> Subscribe</div>
+							 	</div>
+							 	<div id="sub-count">332K</div>	
+							</div> 
+						</div>
+						<div id='view-count'>89,063 views</div>
+
+					</div>
+					<div id="view-bar"></div>
+					<div class="spacer title-box-spacer"></div>
+					<div id="share-options">
+						<div id="left-options">
+							<div class="options-icon">
+								<i class = "fa fa-plus fa-lg" aria-hidden="true"></i>
+								<div>Add to</div>
+							</div>
+							<div class="options-icon">
+								<i class = "fa fa-share fa-lg" aria-hidden="true"></i>
+								<div>Share</div>
+							</div>
+							<div class="options-icon">
+								<i class = "fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
+								<div>More</div>
+							</div>
+						</div>
+						<div id="right-options">
+							<div class="options-icon">
+								<i class = "fa fa-thumbs-up fa-lg" aria-hidden="true"></i>
+								<div>1,625</div>
+							</div>
+							<div class="options-icon">
+								<i class = "fa fa-thumbs-down fa-lg" aria-hidden="true"></i>
+								<div>73</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- third child -->
+			<div id="published">
+				<h5>Published on May 30, 2016</h5>
+				<p>Exactly one year ago I spent a week in the South of France at Studio La Fabrique at a Mix With 
+The Masters seminar learning from the legendary Jacquire King.</p>
+				<div class="spacer"></div>
+				<h5 id="show-more">Show More</h5>
+			</div>
+
+			<!-- fourth child -->
+			<div id="comments">
+				<h5>COMMENTS • 274</h5>
+				<div id="add-comment">
+					<img src="img/guest_user.png" alt="guest user icon">
+					<input placeholder="Add a public comment" align="top">
+				</div>
+				<div class="spacer"></div>
+				<div id="top-comments">
+					<h6>Top comments <i class="fa fa-caret-down" aria-hidden="true"></i></h6>
+				</div>
+				<div class="comment-wrap">
+					<img class="comment-icon" src="img/guest_user.png" alt="user icon">
+					<div class="comment-text">
+						<h6>Scott Productions<span>1 year ago</span></h6>
+						<p>Great video!</p>
+						<div class = "reply">Reply  •  <span>12</span> <i class = "fa fa-thumbs-up" aria-hidden="true">  <i class = "fa fa-thumbs-down" aria-hidden="true"></i>
+						</i>
+						</div>
+						<div class = "view-reply">View all 4 replies <i class = "fa fa-angle-down" aria-hidden="true"></i>
+						</div>
+
+						<!--reply to a comment -->
+						<div class="reply-wrapper">
+							<img src="img/guest_user.png">
+							<div class="reply-preview">
+								<h6>7 Rivers Music<span>1 year ago</span></h6>
+								<p>Very well thought out, bravo</p>
+								<div class = "reply">Reply  •  <span>1</span> <i class = "fa fa-thumbs-up" aria-hidden="true">  <i class = "fa fa-thumbs-down" aria-hidden="true"></i>
+								</i>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		<aside>
+			<div id="aside-header">
+				<h5>Up next</h5>
+			</div>
+			<div class="up-next-wrap">
+				<img src="img/bob-power.jpg" alt="Bob Power video">
+				<div class="thumbnail-text">
+					<h5>Studio Science:Bob Power on Studio Mixing</h5>
+					<p>Red Bull Music Academy</p>
+					<p>207,526 views</p>
+				</div>
+			</div>
+			<div class="spacer"></div>
+			<div class="up-next-wrap">
+				<img src="img/jacquire-king.jpg" alt="Jacquire King video">
+				<div class="thumbnail-text">
+					<h5>Jacquire King:Producing James Bay</h5>
+					<p>Sound On Sound magazine</p>
+					<p>78,661 views</p>
+				</div>
+			</div>
+			<div class="up-next-wrap">
+				<img src="img/pyramind.jpg" alt="pyramind video">
+				<div class="thumbnail-text">
+					<h5>Theory &amp; Arrangement | Disclosure - Latch</h5>
+					<p>Pyramind</p>
+					<p>88,827 views</p>
+				</div>
+			</div>
+			<div class="up-next-wrap">
+				<img src="img/warren-huart.jpg" alt="warren huart video">
+				<div class="thumbnail-text">
+					<h5>Top 10 Mixing Mistakes - Warren Huart: Produce Like</h5>
+					<p>Produce Like A Pro</p>
+					<p>193,068 views</p>
+				</div>
+			</div>
+			<div class="up-next-wrap">
+				<img src="img/marcella-araica.jpg" alt="marcela araica video">
+				<div class="thumbnail-text">
+					<h5>Mixing Engineer Marcella Araica's Go-To Plugins</h5>
+					<p>Waves Audio</p>
+					<p>124,024</p>
+				</div>
+			</div>
+		</aside>
+
+	</div>
+	
+<!-- footer -->
+	<footer>
+		<div id = "footer">
+	<div class = "options">
+		<div class = "footer_el">
+			<img class = "logo_foot" src = "img/youtube.png" alt = "youtube logo">
+		</div>
+	<!-- </div>
+
+	<div class = "options"> -->
+	<div class = options_text>
+		<div class = "footer_el">
+			<div class = "language">
+				<i class = "fa fa-language" aria-hidden="true"></i>
+				Language: <strong>English</strong>
+				<i class = "fa fa-caret-down" aria-hidden="true"></i>	
+			</div>
+		</div>
+		<div class = "footer_el">
+			<div class = "location">
+				Content Location: <strong>United States</strong>
+				<i class = "fa fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class = "footer_el">
+			<div class = "restricted">
+				Restricted Mode: <strong>Off</strong>
+				<i class = "fa fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class = "footer_el">
+			<div class = "history">
+			<i class = "fa fa-hourglass-end" aria-hidden="true"></i>
+			<strong>History</strong>
+			<i class = "fa fa-caret-down" aria-hidden="true"></i>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="spacer"></div>
+	<div class = "links_list">
+		<div class = "link">About</div>
+		<div class = "link">Press</div>
+		<div class = "link">Copywright</div>
+		<div class = "link">Creators</div>
+		<div class = "link">Advertise</div>
+		<div class = "link">+Youtube</div>
+	</div>
+	<div class = "terms_list">
+		<div class = "small_link">About</div>
+		<div class = "small_link">About</div>
+		<div class = "small_link">About</div>
+		<div class = "small_link">About</div>
+		<div class = "small_link">About</div>
+	</div>
+	</div>
+
+</div>
+
+	</footer> 
+
+
+</body>
+</html>
